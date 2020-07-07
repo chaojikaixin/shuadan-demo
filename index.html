@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>產品展示頁-刷單APP</title>
+</head>
+<body>
+<h3 style="text-align: center">與其臨淵羨魚, 不如退而結網</h3>
+<ul>
+    <li>
+        <h3>說明</h3>
+        <p>這是壹個刷單APP的程式展示和搭建教程, 因技術購買方拒絕支付尾款, 故此本人收回授權並將該程式公布.</p>
+        <p>任何人通過該程式即可搭建屬於自己的"刷單平臺", 並且內置支付渠道和聊天室.</p>
+        <p>下面是APP程式預覽畫面:</p>
+        <p><img src="app.png" style="width: 80%" /></p>
+        <p>下面是後臺程式預覽畫面:</p>
+        <p><img src="admin.png" style="width: 80%" /></p>
+    </li>
+    <li>
+        <h3>程式搭建過程</h3>
+    </li>
+    <li>
+        1. <a href="shuadan.zip">點擊這裏</a>下載程式文件, 程序文件包含服務器程式, APP程式, 後臺程式
+    </li>
+    <li>
+        2. 將程式文件上傳到妳的伺服器並解壓. 此後安裝JAVA環境和MYSQL服務器
+    </li>
+    <li>
+        3. 創建數據庫, 並將shuadan.sql導入到數據庫中
+    </li>
+    <li>
+        4. 啟動服務器程式: java nohup -jar [服務器程式文件] --Dspring.database.url=[妳的數據庫地址] --Dspring.database.username=[妳的數據庫用戶名] --Dspring.database.password=[妳的數據庫密碼]
+    </li>
+    <li>
+        5. 此時程式所用收款渠道並非妳的渠道, 聯系飛機號@guosk, 獲得屬於自己的支付渠道並按照要求配置.
+    </li>
+    <li>
+        6. 此時程式所用收款渠道並非妳的渠道, 聯系飛機號@guosk, 獲得屬於自己的支付渠道並按照要求配置.
+    </li>
+    <li>
+        7. 使用NGINX代理APP程式和後臺程式, 全局搜索"localhost"更改為妳的伺服器地址
+    </li>
+    <li>
+        8. 登錄後臺程式,默認賬號密碼為18888888888, 123123, 登陸後重新上傳商品圖片, 並對妳的APP程式進行個性設置
+    </li>
+    <li>
+        9. 使用Hbuilder將APP程式編譯成Android APP, 使用Apple Configurator將APP程式編譯成IOS APP
+    </li>
+    <li>
+        10. 完成搭建, 可以收錢了
+    </li>
+
+</ul>
+</body>
+</html>
